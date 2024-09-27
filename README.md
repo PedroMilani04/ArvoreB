@@ -14,7 +14,7 @@ A B-tree is a self-balancing tree data structure that maintains sorted data and 
 - Every node (except the root) must have at least ⌈m/2⌉ children.
 - The root node can have as few as two children, but all internal nodes must be partially filled.
 - All leaf nodes appear on the same level, which means the tree is balanced.
-- 
+
 # Operations:
 - Search: Efficiently finds an element by traversing the tree, examining only a few nodes.
 - Insertions and Deletions: Maintain balance by redistributing elements or splitting/merging nodes when necessary.
